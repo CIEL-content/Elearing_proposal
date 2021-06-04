@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Experimental Page Layout Inspired by Flipboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+        <meta name="description" content="Experimental Page Layout Inspired by Flipboard" />
+        <meta name="keywords" content="flip, pages, flipboard, layout, responsive, web, web design, grid, ipad, jquery, css3, 3d, perspective, transitions, transform" />
+        <meta name="author" content="" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.08464.js"></script>
+		<script id="pageTmpl" type="text/x-jquery-tmpl">
+			<div class="${theClass}" style="${theStyle}">
+				<div class="front">
+					<div class="outer">
+						<div class="content" style="${theContentStyleFront}">
+							<div class="inner">{{html theContentFront}}</div>
+						</div>
+					</div>
+				</div>
+				<div class="back">
+					<div class="outer">
+						<div class="content" style="${theContentStyleBack}">
+							<div class="inner">{{html theContentBack}}</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</script>
+    </head>
+    <body>
+		
+		<header class="main-title">
+			<h1>Experimental Page Layout <strong>Inspired by Flipboard</strong></h1>
+			<p>Swipe or drag to flip the pages, click to open items </p>
+			<p><strong>Best viewed in a Webkit browser (Safari, Chrome)</strong></p>
+		</header>
+		
+		<div id="flip" class="container">
+		
+			<div class="f-page f-cover">
+				<img src="images/coverpage.png" width="100%" height="auto"></img>
+				<div class="cover-elements">
+					<div class="logo">
+						Pageflip
+						
+					</div>
+				
+				</div>
+				<div class="f-cover-flip">&lt; Flip</div>
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="http://www.ciel.co.in"><img src="images/logo/ciellogo.png"style="width: 200px; height: 60px;"><img></a>
+					<h2>Elearning Propsal</h2>
+
+				</div>
+				<!--div class="box w-25 h-70">
+					<div class="img-cont img-1"></div>
+					<h3>Japanese Prime Minister Noda with NASA Administrator Bolden <span>Published May 3, 2012</span></h3>
+					<p>Thundercats adipisicing marfa wes anderson farm-to-table, +1 vero yr ennui messenger bag occaecat williamsburg cosby sweater anim tattooed. Farm-to-table umami direct trade viral cosby sweater Austin. Magna tattooed irure, DIY do placeat helvetica sapiente laboris. Put a bird on it jean shorts wolf enim, viral authentic hoodie bespoke master cleanse proident. Ea pour-over swag wayfarers, Austin thundercats letterpress mollit 8-bit excepteur forage elit. Cupidatat minim dolore laborum whatever. Farm-to-table nihil tattooed, letterpress helvetica vegan semiotics pariatur pop-up. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
+				</div-->
+				<div class="box w-50 h-100 box-b-l box-b-r">
+					<div class="vl img-cont img-2" style="float:right" ></div>
+					<h2>E-learning Content Creation </h2>
+					<p>Art party cillum et cosby sweater aliquip wolf photo booth thundercats dreamcatcher pickled banksy. Sustainable ex kogi, mumblecore mlkshk occupy mcsweeney's freegan laboris nisi stumptown street art labore food truck. Stumptown pariatur 8-bit, iphone quis ethical pitchfork portland vegan. Irony esse gluten-free, id fanny pack umami commodo. Godard bushwick narwhal, quinoa biodiesel veniam jean shorts minim portland aesthetic excepteur sapiente. Fanny pack aesthetic post-ironic chambray esse. Bespoke nesciunt fugiat aute pariatur craft beer, laborum ex. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
+				</div>
+				<div class="box w-50 h-60">
+					<div ></div>
+					<h3>CIEL provides a complete package for skilling and upskilling by</h3>
+					<div class="img-cont-0 img-3"></div>
+					 
+				</div>
+				<div class="box w-50 h-40 ">
+					<hr/>
+					<h2>Digital learing</h2>
+					<p><span>E-learning has gained enormous demand in the current pandemic situations. In this era when home has become offices, classrooms are also replaced by virtual learning. This has lots of benefit not just to employees but also the companies.</span></p>
+				</div>
+				<!--div class="box w-50 h-30 title-top">
+					<h3>NASA's Webb Flight Backplane Completed <span>Published May 3, 2012</span></h3>
+					<p>Qui trust fund artisan, ullamco jean shorts craft beer ad forage. Kale chips scenester stumptown fugiat, magna nostrud aliqua. Chambray nihil gastropub 3 wolf moon food truck, cillum leggings. Mumblecore do iphone umami pork belly. Enim banh mi ut consequat, mixtape bushwick portland leggings sustainable officia nulla. Tattooed cillum ex, cray letterpress locavore marfa synth organic etsy minim williamsburg exercitation twee. Single-origin coffee cillum nulla polaroid ethical, fugiat incididunt. Helvetica ex godard selvage, sriracha echo park ut portland forage cardigan. Retro readymade williamsburg cliche laboris pinterest. Mollit aliqua direct trade, tumblr vegan lo-fi shoreditch semiotics sed 8-bit. Incididunt keffiyeh PBR cray, assumenda yr butcher nisi. Mustache brunch kogi, farm-to-table small batch odio fugiat consequat fap esse quinoa. Iphone banh mi brunch jean shorts sartorial, letterpress culpa direct trade master cleanse banksy fap whatever quinoa biodiesel. Portland eiusmod minim nihil Austin, sartorial aesthetic occupy tofu sriracha pitchfork seitan.</p>
+				</div-->
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="http://www.ciel.co.in"><img src="images/logo/ciellogo.png"style="width: 200px; height: 60px;"><img></a>
+					<h2>Elearning Propsal</h2>
+				</div>
+				<div class="box w-50 h-100 box-b-l box-b-r">					
+					<h2>E-learning benefits your organization in following ways: </h2>
+					<div class="vl img-cont-1 img-4" style="float:right" ></div>
+				</div>
+				<div class="box w-50 h-60">
+					<div ></div>
+					<h3 text-align="center">Content Ethos @CIEL</h3>
+					<div class="img-cont-2 img-6"></div>
+					 
+				</div>
+				<div class="box w-50 h-40 ">
+					<hr/>
+					<div class="img-cont-3 img-5" style="float:left" ></div>
+					<p><span>At CIEL, digitised courses are created and updated to provide your workforce with the emerging technical and behavioural skills they need to compete in the marketplace.</span></p>
+				</div>
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<a href="http://www.ciel.co.in"><img src="images/logo/ciellogo.png"style="width: 200px; height: 60px;"><img></a>
+					<h2>Elearning Propsal</h2>
+				</div>
+				<div class="box w-50 h-100 ">
+					
+					<h3>Our Team of Subject Matter Experts</h3>
+					<p><b>Uma Shashikant</b> has been a trainer, researcher and consultant in the capital markets since 1988. She taught at the Indian Institute of Capital Markets, was Vice President, Knowledge Management at ICICI Prudential AMC and Chief R&D Officer at Optimix Technologies before setting up CIEL. Uma holds a Doctoral degree in Finance.</p>
+					<p><b>Arti Bhargava</b> has an overall experience of 17 years, having spent the last 12 years with CIEL and heads the Content and Production functions/business vertical. She is an MBA in Finance and has worked as a part of the Product Research and Communication with ICICI Prudential AMC in her last stint</p>
+					<p><b>Anju Vyapak</b> works on insurance content development in CIEL. She is a General Insurance professional with over 20 years of hands-on work & teaching experience. She is a guest faculty (Insurance) for management students at Welingkar Institute of Management and to industry professionals at College of Insurance, Insurance Institute of India. She is a qualified company secretary (ACS) and Fellow of Insurance Institute of India (FIII)</p>
+					<p><b>Labdhi Mehta</b> works on content development in CIEL. She is an engineer and holds a masters degree in management. She has worked in products and wealth management areas in HDFC Bank and DSP Merrill Lynch.</p>
+					<p><b>Bincy D’Cruz </b> works on content development in CIEL. Armed with an MBA in financial markets and with over 13 years of experience in Equity market. She has worked with ICICI Securities providing investment solutions to clients and then moved towards Training across verticals.</p>
+					<p><b>Avinash Tulsiani</b> works on content development and diagnostic assessments in CIEL. Armed with a Master’s in Corporate Finance and internships across multiple sectors in the finance industry.</p>
+					<p><b>Fatema Dholkawala </b> handles the production part of the content. Be it designing to developing Interactive elements for the courses. She has worked with CIEL for over 6 years now and has grown with the company. She has a vast knowledge of different authoring tools and Learning Management System used in eLearning.</p>
+				</div>
+				<div class="box w-50 h-25 box-img-left box-b-r title-top">
+					<div class="img-cont-4 img-7" style="float:left"></div>
+					<p><span>At CIEL, we work extensively and closely with Working Professionals from the industry with specific Subject Area Expertise across:</span></p>
+				</div>
+				<div class="box w-50 h-75 ">
+					<div class="img-cont-5 img-8"></div>
+				</div>
+			</div>
+			
+			<div class="f-page f-cover-back">
+				<div id="codrops-ad-wrapper">
+					
+				</div>
+			</div>
+		</div>
+	
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript">
+				
+			var $container 	= $( '#flip' ),
+				$pages		= $container.children().hide();
+			
+			Modernizr.load({
+				test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+				yep : ['js/jquery.tmpl.min.js','js/jquery.history.js','js/core.string.js','js/jquery.touchSwipe-1.2.5.js','js/jquery.flips.js'],
+				nope: 'css/fallback.css',
+				callback : function( url, result, key ) {
+					
+					if( url === 'css/fallback.css' ) {
+						$pages.show();
+					}
+					else if( url === 'js/jquery.flips.js' ) {
+						$container.flips();
+					}
+			
+				}
+			});
+				
+		</script>
+    </body>
+</html>
