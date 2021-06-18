@@ -272,6 +272,20 @@ a.f-ref{
 	cursor: pointer;
 }
 
+.box h2{
+	padding: 10px 0px;
+	margin: 0;
+	font-size: 22px;
+}
+.box h2 span{
+	display: block;
+	font-size: 11px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #74726f;
+}
+
 .box h3{
 	padding: 10px 0px;
 	margin: 0;
@@ -305,7 +319,7 @@ a.f-ref{
 	padding: 0;
 	text-align: justify;
 	font-family: Georgia;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -316,7 +330,7 @@ a.f-ref{
 	padding: 0;
 	text-align: justify;
 	font-family: Georgia;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -338,7 +352,7 @@ a.f-ref{
 .box1 h1{
 	color: Orange;
 	text-align: center;
-	font-size: 44px;
+	font-size: 34px;
 	text-transform: uppercase;
 	line-height: 34px;
 	padding-bottom: 10px;
@@ -348,13 +362,13 @@ a.f-ref{
 .box1 h2{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 25px;
+	font-size: 22px;
 	
 }
 .box1 h3{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
 }
 .box1 h3 span{
 	display: block;
@@ -384,7 +398,7 @@ a.f-ref{
 	padding: 0;
 	text-align: justify;
 	font-family: Georgia;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -394,7 +408,7 @@ a.f-ref{
 	padding: 0;
 	text-align: justify;
 	font-family: Georgia;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -416,13 +430,12 @@ a.f-ref{
 .box11 h2{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 25px;
-	text-align: center;
+	font-size: 22px;
 }
 .box11 h3{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
 }
 .box11 h3 span{
 	display: block;
@@ -452,7 +465,7 @@ a.f-ref{
 	padding: 0;
 	text-align: justify;
 	font-family: Georgia;
-	font-size: 15px;
+	font-size: 14px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -462,7 +475,7 @@ a.f-ref{
 	padding: 0;
 	text-align: justify;
 	font-family: Georgia;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 20px;
 	display: block;
 	position: relative;
@@ -698,7 +711,7 @@ margin-left: 2%;
 	box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 .box.box-expanded h3{
-	font-size: 50px;
+	font-size: 30px;
 	line-height: 50px;
 	padding-top: 0px;
 }
@@ -706,7 +719,7 @@ margin-left: 2%;
 	font-size: 14px;
 }
 .box.box-expanded h2{
-	font-size: 50px;
+	font-size: 30px;
 	line-height: 50px;
 	padding-top: 0px;
 }
