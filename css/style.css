@@ -66,6 +66,7 @@
 .page .content .inner{
 	padding: 60px 15px 10px;
 	height: 100%;
+	background-color: whitesmoke;
 }
 .page h1{
 	text-align: center;
@@ -205,9 +206,9 @@ a.f-ref{
 .f-title h2{
 	line-height: 50px;
 	margin: 0;
-	font-weight: 300;
-	font-size: 38px;
-	color: #aaa;
+	font-weight: 700;
+	font-size: 45px;
+	color: #00a0e2;
 	float: left;
 	width: 33%;
 }
@@ -216,9 +217,9 @@ a.f-ref{
 	float: left;
 	text-align: right;
 	overflow: hidden;
-	height: 58px;
-	font-size: 12px;
-	line-height: 50px;
+	height: 75px;
+	font-size: 20px;
+	line-height: 60px;
 	padding: 0px 15px;
 	color: #777;
 	font-style: italic;
@@ -237,7 +238,7 @@ a.f-ref{
 	padding: 20px;
 	overflow: hidden;
 	position: relative;
-	background: #fff;
+	background: #f5f5dc;
 	cursor: pointer;
 }
 
@@ -301,7 +302,7 @@ a.f-ref{
 	padding: 20px;
 	overflow: hidden;
 	position: relative;
-	background: #fff;
+	background:#f5f5dc;
 	cursor: default;
 }
 .box1 h1{
@@ -379,7 +380,7 @@ a.f-ref{
 	padding: 20px;
 	overflow: hidden;
 	position: relative;
-	background: #fff;
+	background: #f5f5dc;
 	cursor: default;
 }
 .box11 h2{
@@ -543,7 +544,10 @@ a.f-ref{
 	background-image: url(../images/page7.jpg);
 }
 .img-10{
-	background-image: url(../images/1.1.jpg);
+	background-image: url(../images/101.png);
+}
+.img-11{
+	background-image: url(../images/4.png);
 }
 
 .sme-cont{
