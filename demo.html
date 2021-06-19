@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="iframe-lightbox-master/css/iframe-lightbox.css">
+        <script type="text/javascript" src="iframe-lightbox-master/js/iframe-lightbox.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <a href="javascript:void(0);"
+      class="iframe-lightbox-link"
+     href="https://l2-sample-2-demo.netlify.app/">
+   YouTube
+</a>
+        <script src="" async defer>
+(function (root, document) {
+	"use strict";
+	[].forEach.call(document.getElementsByClassName("iframe-lightbox-link"), function (el) {
+		el.lightbox = new IframeLightbox(el, {
+				onCreated: function () {
+					/* show your preloader */
+				},
+				onLoaded: function () {
+					/* hide your preloader */
+				},
+				onError: function () {
+					/* hide your preloader */
+				},
+				onClosed: function () {
+					/* hide your preloader */
+				},
+				scrolling: false, /* default: false */
+				rate: 500 /* default: 500 */
+			});
+	});
+})("undefined" !== typeof window ? window : this, document);
+        </script>
+    </body>
+</html>

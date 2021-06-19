@@ -95,7 +95,7 @@
 	padding-top: 20px;
 }
 .page.cover .front .content{
-	background: #ddd url(../images/cover.jpg) no-repeat center center;
+	background: #ddd url(../images/innerbg.png) no-repeat center center;
 	background-size: cover;
 }
 .page.cover-back .back .content{
@@ -237,7 +237,7 @@ a.f-ref{
 	line-height: 50px;
 	margin: 0;
 	font-weight: 700;
-	font-size: 45px;
+	font-size: 35px;
 	color: #00a0e2;
 	float: left;
 	width: 33%;
@@ -318,7 +318,7 @@ a.f-ref{
 	margin: 0;
 	padding: 0;
 	text-align: justify;
-	font-family: Georgia;
+	font-family: Bookman;
 	font-size: 14px;
 	line-height: 20px;
 	display: block;
@@ -329,7 +329,7 @@ a.f-ref{
 	margin: 18px 0 0 0;
 	padding: 0;
 	text-align: justify;
-	font-family: Georgia;
+	font-family: Bookman;
 	font-size: 16px;
 	line-height: 20px;
 	display: block;
@@ -397,7 +397,7 @@ a.f-ref{
 	margin: 0;
 	padding: 0;
 	text-align: justify;
-	font-family: Georgia;
+	font-family: Bookman;
 	font-size: 14px;
 	line-height: 20px;
 	display: block;
@@ -407,7 +407,7 @@ a.f-ref{
 .box1 p span{
 	padding: 0;
 	text-align: justify;
-	font-family: Georgia;
+	font-family: Bookman;
 	font-size: 16px;
 	line-height: 20px;
 	display: block;
@@ -464,7 +464,7 @@ a.f-ref{
 	margin: 0;
 	padding: 0;
 	text-align: justify;
-	font-family: Georgia;
+	font-family: Bookman;
 	font-size: 14px;
 	line-height: 20px;
 	display: block;
@@ -474,7 +474,7 @@ a.f-ref{
 .box11 p span{
 	padding: 0;
 	text-align: justify;
-	font-family: Georgia;
+	font-family: Bookman;
 	font-size: 16px;
 	line-height: 20px;
 	display: block;
@@ -511,7 +511,7 @@ a.f-ref{
 	background-size: contain;
 }
 .img-cont-2{
-	height: 90%;
+	height: 110%;
 	width: 100%;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -560,49 +560,61 @@ a.f-ref{
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: contain;
-	margin-top: 100px;
 	margin-left: 47px;
 }
+.img-cont-10{
+	height: 80%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: contain;
+	margin-top: 33px;
 
+}
 
 .img-1{
-	background-image: url(../images/31.png);
-	width:50%;
-	height: 100%;
+	background-image: url(../images/1.png);
 }
 .img-2{
-	background-image: url(../images/5.png);
+	background-image: url(../images/2.png);
 
 }
 .img-3{
-	background-image: url(../images/page3.jpg);
+	background-image: url(../images/3.png);
 }
 .img-4{
-	background-image: url(../images/page4.jpg);
+	background-image: url(../images/4.png);
 }
 .img-5{
-	background-image: url(../images/8.png);
+	background-image: url(../images/5.png);
 }
 .img-6{
-	background-image: url(../images/9.png);
+	background-image: url(../images/6.png);
 }
 .img-7{
-	background-image: url(../images/page5.jpg);
+	background-image: url(../images/7.png);
 }
 .img-71{
-	background-image: url(../images/page5.1.jpg);
+	background-image: url(../images/9.png);
 }
 .img-8{
-	background-image: url(../images/page6.jpg);
+	background-image: url(../images/8.png);
 }
 .img-9{
 	background-image: url(../images/page7.jpg);
 }
 .img-10{
-	background-image: url(../images/101.png);
+	background-image: url(../images/11.png);
+	width: 50%;
+    height: 100%;
+    margin-left: 20px;
+    margin-top: 54px;
 }
 .img-11{
-	background-image: url(../images/4.png);
+	background-image: url(../images/12.png);
+}
+.img-12{
+	background-image: url(../images/13.png);
 }
 
 .sme-cont{
@@ -809,4 +821,16 @@ hr{
 	width:40%;
 	height: 6px;	
 	background: linear-gradient(to right,  #f88716 50%,#0059b3 50%);
+}
+table{
+    font-size: 20px;
+	font-family: Bookman;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table td img{
+	width: 50%;
 }
